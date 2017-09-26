@@ -7,6 +7,8 @@ const chatServer = require('./lib/chatServer.js');
 
 app.use(express.static('public'));
 
+chatServer.listen(http);
+
 app.get('/', (req, res) => {
   res.sendFile(path.join(_dirname, 'index.html'));
 });
