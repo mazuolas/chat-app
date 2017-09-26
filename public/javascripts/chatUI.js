@@ -14,5 +14,9 @@ class ChatUI {
     newMsg.textContent = msg;
     this.msgList.appendChild(newMsg);
   }
+
+  getInput(){
+    
+  }
 }
 export default ChatUI;
