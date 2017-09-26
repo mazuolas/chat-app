@@ -12,7 +12,7 @@ class ChatUI {
     let newMsg = document.createElement('li');
 
     newMsg.textContent = msg;
-    this.msgList.addChild(newMsg);
+    this.msgList.appendChild(newMsg);
   }
 }
 export default ChatUI;
