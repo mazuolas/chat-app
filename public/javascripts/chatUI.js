@@ -1,7 +1,6 @@
 import Chat from './chat.js';
 class ChatUI {
   constructor(socket){
-    console.log('chat ui created');
     this.chat = new Chat(socket)
     this.room = document.getElementById('room');
     this.msgList = document.getElementById('msg-list');
@@ -16,7 +15,7 @@ class ChatUI {
   }
 
   getInput(){
-    
+
   }
 }
 export default ChatUI;
