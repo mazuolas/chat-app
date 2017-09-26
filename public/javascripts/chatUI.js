@@ -15,7 +15,7 @@ class ChatUI {
   }
 
   getInput(){
-
+    
   }
 }
 export default ChatUI;
