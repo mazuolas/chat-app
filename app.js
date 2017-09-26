@@ -3,7 +3,7 @@ const app = express();
 const http = require('http').Server(app);
 const path = require('path');
 const port = 3000;
-const createChat = require('./lib/chatServer.js');
+const chatServer = require('./lib/chatServer.js');
 
 app.use(express.static('public'));
 
