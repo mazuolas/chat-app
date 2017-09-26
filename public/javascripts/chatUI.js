@@ -9,3 +9,4 @@ class ChatUI {
   }
 
 }
+export default ChatUI;
